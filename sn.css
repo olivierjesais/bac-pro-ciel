@@ -1,0 +1,164 @@
+:root{
+    --background-color-card: #fcd2c7;
+
+    --background-color-btn: #fafafa;
+    --background-color-title: #7c73e6;
+
+    --border-color-enseignement: #ec5c66; 
+    --border-color-other: #ff6f3c;
+    --border-color-exam: #f0ab8d;
+    --border-color-annexes: #fcf2d5;
+
+    --font-color-link: rgba(116, 85, 85, 0.452);
+    --font-color-subtitle: black;
+}
+
+body{
+    font-family: Optima, sans-serif;
+    background-color: #fafafa;
+    margin: 0;
+}
+
+h1{
+    color: var(--font-color-subtitle);
+}
+
+.top{
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    padding-right: 100px;
+
+    background-color: var(--background-color-title);
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#photo_BRANLY{
+    grid-row: 1;
+    grid-column: 1;
+    margin-left: 10px;
+}
+
+.top > div{
+    grid-row: 1;
+    grid-column: 2;
+
+    color: #fafafa;
+}
+
+.middle{
+    display: grid;
+    text-align: center;
+}
+
+.middle > p{
+    width: 100%;
+
+    font-size: 42px;
+    font-weight: bold;
+
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.middle > a:hover{
+    background-color: rgb(223, 223, 223);
+    color: black;
+}
+
+
+a{
+    text-decoration: none;
+    color: var(--font-color-link);
+}
+
+.bottom{
+    display: grid;
+    row-gap: 25px; 
+    
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.bottom > div{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.bottom > div > .button{
+    display: flex;
+    justify-content: space-around;
+}
+
+.button > a{
+    width: 25%;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: var(--background-color-btn);
+    font-size: 25px;
+    transition: background-color .3s, color .3s, width .3s, border-radius .3s;
+}
+
+.button{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.bottom > div{
+    padding-bottom: 15px;
+    border-radius: 15px;
+}
+
+.bottom > .enseignement{
+    margin-top: 20px;
+    background-color: var(--background-color-card);
+    
+}
+
+.bottom > .other_enseignement{
+    background-color: var(--background-color-card);
+}
+
+.bottom > .examen{
+    background-color: var(--background-color-card);
+}
+
+.bottom > .annexes{
+    background-color: var(--background-color-card);
+}
+
+.button > a{
+    text-align: center;
+}
+
+.button > a:hover{
+    border-radius:  15px;
+}
+
+.bottom > .enseignement >.button > a:hover{
+    background-color: #bd4a51;
+    
+    color: #ff0011;
+}
+
+.bottom > .other_enseignement >.button > a:hover{ 
+    background-color: rgb(202, 129, 129);
+    color: rgb(197, 51, 51);
+}
+
+.bottom > .examen >.button > a:hover{
+    background-color: rgb(252, 139, 95);
+    color: rgb(255, 72, 0);
+}
+
+.bottom > .annexes >.button > a{
+   width: 100%;
+}
+
+.bottom > .annexes >.button > a:hover{
+    background-color:rgb(11, 177, 168);
+    color: rgb(0, 255, 242);
+}
+
