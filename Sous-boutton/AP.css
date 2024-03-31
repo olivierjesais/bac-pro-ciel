@@ -78,3 +78,46 @@ padding-left: 40px;
 }
 
 
+.planning {
+    width: 800px;
+    border-collapse: collapse;
+}
+
+.tableau {
+    border: 1px solid #000000;
+}
+
+
+.planning table td {
+    background: antiquewhite;
+    text-align: center;
+    height: 40px;
+    width: 16%;
+}
+
+.planning table td:nth-child(5) {
+    width: 16%;
+}
+
+.planning table td:nth-child(6) {
+    width: 16%;
+}
+
+.planning table td:nth-child(9) {
+    width: 32%;
+}
+
+.planning table a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.planning table a:hover {
+    text-decoration: underline;
+}
+
+
+.tableau > table >tbody >tr>td {
+    border: solid;
+    border-color: darkgrey;
+}
