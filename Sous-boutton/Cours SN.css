@@ -1,4 +1,4 @@
-body{
+ body{
     font-family: Optima, sans-serif;
 }
 
@@ -46,10 +46,23 @@ body{
     color: black;
 }
 
-
 .middle > a{
     text-decoration: none;
    
+}
+
+.info1{
+    text-align: center;
+}
+
+.tableau{
+    margin-top: 20px;
+    margin-left: 10%;
+    text-align: center;
+}
+
+h1{
+padding-left: 25px;
 }
 
 #ids{
@@ -57,7 +70,16 @@ body{
     width: 50px;
 }
 
-.tableau{
-    padding-top: 50px;
-    padding-left: 200px;
+.info > a{
+padding-left: 50px;
+}
+
+.info{
+padding-left: 40px;
+} 
+
+
+.tableau > table >tbody >tr>td {
+    border: solid;
+    border-color: darkgrey;
 }
