@@ -70,15 +70,6 @@ padding-left: 25px;
     width: 50px;
 }
 
-.info > a{
-padding-left: 50px;
-}
-
-.info{
-padding-left: 40px;
-} 
-
-
 .tableau > table >tbody >tr>td {
     border: solid;
     border-color: darkgrey;
