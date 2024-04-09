@@ -83,3 +83,15 @@ padding-left: 40px;
     border: solid;
     border-color: darkgrey;
 }
+
+td:hover{
+    background-color:rgb(199, 199, 199);
+    -webkit-box-shadow: 9px 10px 20px 3px #000000; 
+    box-shadow: 9px 10px 40px 3px #0000008c;
+    transform: scale(1.005);
+}
+
+td{
+    transition: background-color .3s, color .3s, box-shadow .3s, transform .3s;
+}
+
